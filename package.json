@@ -4,7 +4,10 @@
   "description": "Guide touristique du Senegal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/PappaLaity/senTourisme/issues"
   },
-  "homepage": "https://github.com/PappaLaity/senTourisme#readme"
+  "homepage": "https://github.com/PappaLaity/senTourisme#readme",
+  "dependencies": {
+    "nuxt": "^2.15.2"
+  }
 }
